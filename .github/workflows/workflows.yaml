@@ -6,9 +6,9 @@ name: template-v3-CICD
 on:
   # Triggers the workflow on push or pull request events but only for the "master" branch
   push:
-    branches: [ "master" ]
+    branches: ["master"]
   pull_request:
-    branches: [ "master" ]
+    branches: ["master"]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -40,6 +40,6 @@ jobs:
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
-          ACCESS_TOKEN: ${{ secrets.DEPLOY_V3_COMPONENTS }}
+          ACCESS_TOKEN: ${{ secrets.TEMPLATE_SERCERT }}
           BRANCH: gh-pages
           FOLDER: dist
