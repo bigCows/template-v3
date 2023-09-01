@@ -57,7 +57,7 @@ pnpm lint:stylelint
 pnpm commit
 ```
 
-### 文件资源目录 📚
+### 文件目录 📚
 
 ```text
 Geeker-Admin
