@@ -109,7 +109,7 @@ Geeker-Admin
 └─ vite.config.ts         # vite 全局配置文件
 ```
 
-### 浏览器支持 🌎
+### 浏览器支持
 
 - 本地开发推荐使用 Chrome 最新版浏览器 [Download](https://www.google.com/intl/zh-CN/chrome/)。
 - 生产环境支持现代浏览器，不再支持 IE 浏览器，更多浏览器可以查看 [Can I Use Es Module](https://caniuse.com/?search=ESModule)。
