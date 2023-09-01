@@ -83,9 +83,9 @@ const login = (formEl: FormInstance | undefined) => {
       router.push(HOME_URL);
       ElNotification({
         title: getTimeState(),
-        message: "欢迎登录 Geeker-Admin",
+        message: "欢迎登录 派大星",
         type: "success",
-        duration: 3000
+        duration: 1500
       });
     } finally {
       loading.value = false;
